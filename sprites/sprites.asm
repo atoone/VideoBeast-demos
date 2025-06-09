@@ -3,7 +3,7 @@
 ; 
 ; Expects:
 ;
-; VideoBeast to be paged in when boing_setup is called
+; VideoBeast to be paged in when do_sprite_demo is called
 ;
 ; Expects the following labels defined:
 ;    VBASE and VB_zzzz labels configured for VideoBeast page
@@ -13,14 +13,14 @@
 ; Uses ../assets/cozy.dat - Generated with:
 ; > tiler -s 2 2 -g -i cozy.png -o cozy.dat -w cozy.pal cozy_16x16.png
 ;
-; Total of 144 2x2 sprites, 18432 bytes - single palette
+; Total of 144 2x2 sprites (576 cells), 18432 bytes - single palette
 ;
 ; Compressed to cozy.dat.zx0 - 5286 bytes
 ;
 ;    Sprite list 1    @ 40k                        Page 10
 ;    Sprite list 2    @ 42K
 ;
-; Sprite cells        @ 160K  (32k free to 256K..) Page 40  (28h) - occupy 4992 bytes (156 tiles @ 32 bytes)
+; Sprite cells        @ 160K  (32k free to 256K..) Page 40  (28h) - occupy 18432 bytes (576 cells @ 32 bytes)
 ;
 ; Uses Palette 10
 ;      Layer   5

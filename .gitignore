@@ -1,4 +1,6 @@
 *.lst
 *.bin
+*.com
+*.tap
 *.zx0
 
