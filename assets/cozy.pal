@@ -1,0 +1,16 @@
+// Palette for cozy_16x16.png
+8000  // Transparent
+2108  // 1: 0x393938
+2198  // 2: 0x3a66cf
+2284  // 3: 0x3ca42a
+229c  // 4: 0x53acf4
+4194  // 5: 0xa25dc6
+531c  // 6: 0xa6e4fe
+5290  // 7: 0xaba4a0
+5104  // 8: 0xb9522f
+529c  // 9: 0xc7afee
+6294  // 10: 0xd3b4af
+6288  // 11: 0xe2b350
+7310  // 12: 0xfce0a1
+739c  // 13: 0xfdfdfd
+7304  // 14: 0xffe11d
